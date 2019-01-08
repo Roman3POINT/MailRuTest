@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36774" started-at="2019-01-08T11:49:35Z" finished-at="2019-01-08T11:50:11Z">
+    <groups>
+      <group name="MailRuTest">
+        <method signature="MainPageTest.test()[pri:0, instance:SoftClub.MainPageTest@6615435c]" name="test" class="SoftClub.MainPageTest"/>
+        <method signature="AuthorizationPageTest.logIn(SoftClub.test_pages.model.User)[pri:0, instance:SoftClub.AuthorizationPageTest@3c09711b]" name="logIn" class="SoftClub.AuthorizationPageTest"/>
+        <method signature="SendMessageTest.sendMessage()[pri:0, instance:SoftClub.SendMessageTest@2669b199]" name="sendMessage" class="SoftClub.SendMessageTest"/>
+        <method signature="LogOutTest.logOutUser()[pri:0, instance:SoftClub.LogOutTest@174d20a]" name="logOutUser" class="SoftClub.LogOutTest"/>
+      </group> <!-- MailRuTest -->
+    </groups>
+    <test name="MainPage Test" duration-ms="16" started-at="2019-01-08T11:49:35Z" finished-at="2019-01-08T11:49:35Z">
+      <class name="SoftClub.MainPageTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:SoftClub.MainPageTest@6615435c]" name="test" duration-ms="1" started-at="2019-01-08T11:49:35Z" finished-at="2019-01-08T11:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- SoftClub.MainPageTest -->
+    </test> <!-- MainPage Test -->
+    <test name="Authorization Test" duration-ms="13571" started-at="2019-01-08T11:49:35Z" finished-at="2019-01-08T11:49:48Z">
+      <class name="SoftClub.AuthorizationPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:SoftClub.AuthorizationPageTest@3c09711b]" name="init" is-config="true" duration-ms="4508" started-at="2019-01-08T11:49:35Z" finished-at="2019-01-08T11:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="logIn(SoftClub.test_pages.model.User)[pri:0, instance:SoftClub.AuthorizationPageTest@3c09711b]" name="logIn" duration-ms="6698" started-at="2019-01-08T11:49:39Z" data-provider="getUser" finished-at="2019-01-08T11:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User{login='romanbogatko1998@mail.ru', password='fghfxfysxfkfdtr999FGHFXFYS199823'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:SoftClub.AuthorizationPageTest@3c09711b]" name="destroy" is-config="true" duration-ms="2355" started-at="2019-01-08T11:49:46Z" finished-at="2019-01-08T11:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- SoftClub.AuthorizationPageTest -->
+    </test> <!-- Authorization Test -->
+    <test name="Send message Test" duration-ms="12982" started-at="2019-01-08T11:49:48Z" finished-at="2019-01-08T11:50:01Z">
+      <class name="SoftClub.SendMessageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:SoftClub.SendMessageTest@2669b199]" name="init" is-config="true" duration-ms="6189" started-at="2019-01-08T11:49:48Z" finished-at="2019-01-08T11:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendMessage()[pri:0, instance:SoftClub.SendMessageTest@2669b199]" name="sendMessage" duration-ms="3327" started-at="2019-01-08T11:49:55Z" finished-at="2019-01-08T11:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:SoftClub.SendMessageTest@2669b199]" name="destroy" is-config="true" duration-ms="3464" started-at="2019-01-08T11:49:58Z" finished-at="2019-01-08T11:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- SoftClub.SendMessageTest -->
+    </test> <!-- Send message Test -->
+    <test name="Log Out Test" duration-ms="9986" started-at="2019-01-08T11:50:01Z" finished-at="2019-01-08T11:50:11Z">
+      <class name="SoftClub.MainPageTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:SoftClub.MainPageTest@6615435c]" name="init" is-config="true" duration-ms="1937" started-at="2019-01-08T11:49:33Z" finished-at="2019-01-08T11:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- SoftClub.MainPageTest -->
+      <class name="SoftClub.LogOutTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:SoftClub.LogOutTest@174d20a]" name="init" is-config="true" duration-ms="5539" started-at="2019-01-08T11:50:01Z" finished-at="2019-01-08T11:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="logOutUser()[pri:0, instance:SoftClub.LogOutTest@174d20a]" name="logOutUser" duration-ms="2123" started-at="2019-01-08T11:50:07Z" finished-at="2019-01-08T11:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutUser -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:SoftClub.LogOutTest@174d20a]" name="destroy" is-config="true" duration-ms="2321" started-at="2019-01-08T11:50:09Z" finished-at="2019-01-08T11:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- SoftClub.LogOutTest -->
+    </test> <!-- Log Out Test -->
+  </suite> <!-- Suite -->
+</testng-results>

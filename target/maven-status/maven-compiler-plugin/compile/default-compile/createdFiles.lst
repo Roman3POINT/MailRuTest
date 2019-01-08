@@ -1,0 +1,8 @@
+SoftClub\driver\SeleniumDriverUtil.class
+SoftClub\driver\SeleniumWebDriverWait.class
+SoftClub\test_pages\BasePage.class
+SoftClub\test_pages\model\User.class
+SoftClub\test_pages\LoginPage.class
+SoftClub\test_pages\model\Message.class
+SoftClub\logger\TestLogger.class
+SoftClub\test_pages\MainPage.class
